@@ -1,0 +1,6 @@
+package com.masich.yatc;
+
+public final class OAuthConnectionData {
+    public static final String CONSUMER_KEY = "consumer_key_string";
+    public static final String CONSUMER_SECRET= "consumer_secret_string";
+}

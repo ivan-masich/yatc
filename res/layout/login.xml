@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#C3E0EE">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginText"
+        android:textColor="#393333"
+        android:background="#8EC1DA"
+        android:layout_margin="5px"
+        android:padding="5px"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogIn"
+        android:text="@string/labelLogin"
+        android:layout_width="fill_parent"
+        android:background="#373737"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:padding="7px"
+        android:textColor="#A4A4A4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/loginError"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#393333"
+        android:background="#E65B3F"
+        android:layout_margin="5px"
+        android:padding="5px"
+        android:visibility="gone"/>
+
+</LinearLayout>

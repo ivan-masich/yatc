@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C3E0EE">
+
+    <EditText
+        android:id="@+id/textStatus"
+        android:typeface="serif"
+        android:textColorHint="#E6E6E6"
+        android:textColor="#393333"
+        android:maxLength="140"
+        android:hint="@string/hintStatus"
+        android:background="#8EC1DA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:padding="5px"
+        android:minLines="4"
+        android:gravity="top"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonUpdate"
+        android:text="@string/labelUpdate"
+        android:layout_width="fill_parent"
+        android:background="#373737"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:padding="7px"
+        android:textColor="#A4A4A4"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="5px">
+
+        <ListView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/listTimeline"
+            android:background="#8EC1DA"
+            android:cacheColorHint="#00000000"
+            android:divider="#373737"
+            android:dividerHeight="2px"/>
+    </LinearLayout>
+
+</LinearLayout>

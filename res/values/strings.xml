@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YATC by masich.com</string>
+    <string name="hintStatus">Enter 140 characters status update</string>
+    <string name="labelUpdate">Update</string>
+    <string name="loginText">For use this application you need Log In.</string>
+    <string name="labelLogin">Log In</string>
+    <string name="labelLogout">Log Out</string>
+    <string name="labelExit">Exit</string>
+    <string name="toastTwitPosted">Twit was posted.</string>
+    <string name="toastStatusEmpty">Please enter status message.</string>
+    <string name="alertLogout">Are you sure you want to log out?</string>
+    <string name="alertExit">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loginErrorMessage">Something wrong, please try log in again.</string>
+</resources>

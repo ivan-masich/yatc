@@ -1,0 +1,13 @@
+bin/*
+!empty
+
+gen/*
+!empty
+
+local.properties
+out
+.idea
+YATC.iml
+proguard.cfg
+
+src/com/masich/yatc/OAuthConnectionData.java
